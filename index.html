@@ -7,24 +7,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <style>
 /* ═══════════════════════════════════════════════
-   DESIGN TOKENS — BEIGE & SOFT GOLD LUXURY
+   DESIGN TOKENS — IVORY & DEEP RED LUXURY
 ═══════════════════════════════════════════════ */
 :root {
-  --bg:         #FEFCF8;
-  --bg2:        #F8F4EE;
-  --primary:    #D8C3A5;
-  --secondary:  #F3EBDD;
-  --accent:     #B08D57;
-  --accent-dk:  #8B6B38;
-  --accent-lt:  #E8D5B0;
+  --bg:         #FEF8F9;
+  --bg2:        #F8EEEF;
+  --primary:    #D8A5A9;
+  --secondary:  #F3DDDF;
+  --accent:     #B0575E;
+  --accent-dk:  #8B383F;
+  --accent-lt:  #E8B0B5;
   --text:       #3E3A35;
   --text-md:    #6B6560;
   --text-lt:    #9A9490;
   --white:      #FFFFFF;
   --navy:       #1C1A17;
-  --gold:       #B08D57;
-  --gold-pale:  #FDF8F0;
-  --border:     rgba(176,141,87,0.18);
+  --gold:       #B0575E;
+  --gold-pale:  #FDF0F1;
+  --border:     rgba(176,87,94,0.18);
   --shadow:     0 4px 24px rgba(62,58,53,0.08);
   --shadow-lg:  0 12px 48px rgba(62,58,53,0.13);
   --shadow-xl:  0 24px 64px rgba(62,58,53,0.16);
@@ -88,7 +88,7 @@ nav {
   border-radius: 50px !important;
   letter-spacing: 0.04em !important;
 }
-.nav-cta:hover { background: var(--accent-dk) !important; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(176,141,87,0.30); }
+.nav-cta:hover { background: var(--accent-dk) !important; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(176,87,94,0.30); }
 
 /* ═══ HERO ════════════════════════════════════ */
 #hero {
@@ -187,7 +187,7 @@ nav {
   border: none;
   transition: all 0.22s;
 }
-.btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(176,141,87,0.28); }
+.btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(176,87,94,0.28); }
 .btn-gold { background: var(--accent); color: var(--white); }
 .btn-gold:hover { background: var(--accent-dk); }
 .btn-outline-light {
@@ -195,7 +195,7 @@ nav {
   border: 1.5px solid rgba(255,255,255,0.30);
   color: rgba(255,255,255,0.85);
 }
-.btn-outline-light:hover { border-color: var(--accent); color: var(--accent); background: rgba(176,141,87,0.08); }
+.btn-outline-light:hover { border-color: var(--accent); color: var(--accent); background: rgba(176,87,94,0.08); }
 .btn-outline-dark {
   background: transparent;
   border: 1.5px solid var(--accent);
@@ -352,7 +352,7 @@ section { padding: 96px 5vw; }
 .corp-tab {
   padding: 0.52rem 1.2rem;
   border-radius: 50px;
-  border: 1.5px solid rgba(176,141,87,0.30);
+  border: 1.5px solid rgba(176,87,94,0.30);
   font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -398,7 +398,7 @@ section { padding: 96px 5vw; }
   display: flex; align-items: flex-start; gap: 0.65rem;
   padding: 0.85rem 1rem;
   background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(176,141,87,0.15);
+  border: 1px solid rgba(176,87,94,0.15);
   border-radius: var(--radius-sm);
   font-size: 0.85rem;
   color: rgba(254,252,248,0.80);
@@ -407,8 +407,8 @@ section { padding: 96px 5vw; }
   cursor: default;
 }
 .corp-program-item:hover {
-  background: rgba(176,141,87,0.10);
-  border-color: rgba(176,141,87,0.40);
+  background: rgba(176,87,94,0.10);
+  border-color: rgba(176,87,94,0.40);
   color: var(--white);
 }
 .corp-program-item::before {
@@ -491,7 +491,7 @@ section { padding: 96px 5vw; }
 }
 .career-program-item:hover {
   border-color: var(--accent);
-  box-shadow: 0 2px 12px rgba(176,141,87,0.12);
+  box-shadow: 0 2px 12px rgba(176,87,94,0.12);
 }
 .career-program-item::before {
   content: '◆';
@@ -743,13 +743,13 @@ section { padding: 96px 5vw; }
 }
 .testi-card {
   background: rgba(254,252,248,0.05);
-  border: 1px solid rgba(176,141,87,0.20);
+  border: 1px solid rgba(176,87,94,0.20);
   border-radius: var(--radius);
   padding: 2rem;
   position: relative;
   transition: all 0.2s;
 }
-.testi-card:hover { border-color: rgba(176,141,87,0.50); background: rgba(254,252,248,0.08); }
+.testi-card:hover { border-color: rgba(176,87,94,0.50); background: rgba(254,252,248,0.08); }
 .testi-stars { color: var(--accent); font-size: 0.82rem; letter-spacing: 1px; margin-bottom: 1rem; }
 .testi-quote-mark {
   font-family: var(--ff-head);
@@ -780,12 +780,12 @@ section { padding: 96px 5vw; }
 .testi-add {
   display: flex; align-items: center; justify-content: center;
   min-height: 200px;
-  border: 2px dashed rgba(176,141,87,0.30) !important;
-  background: rgba(176,141,87,0.03) !important;
+  border: 2px dashed rgba(176,87,94,0.30) !important;
+  background: rgba(176,87,94,0.03) !important;
   cursor: pointer; transition: all 0.2s !important;
   text-align: center;
 }
-.testi-add:hover { border-color: rgba(176,141,87,0.60) !important; background: rgba(176,141,87,0.07) !important; }
+.testi-add:hover { border-color: rgba(176,87,94,0.60) !important; background: rgba(176,87,94,0.07) !important; }
 .testi-add-icon { font-size: 2.2rem; color: var(--accent); margin-bottom: 0.6rem; line-height: 1; }
 .testi-add-title { font-family: var(--ff-head); font-size: 1rem; font-weight: 700; color: var(--white); margin-bottom: 0.4rem; }
 .testi-add-desc { font-size: 0.8rem; color: rgba(254,252,248,0.45); line-height: 1.6; max-width: 210px; margin: 0 auto 1rem; }
@@ -812,7 +812,7 @@ section { padding: 96px 5vw; }
 .plan-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); border-color: var(--accent); }
 .plan-card.featured {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(176,141,87,0.15), var(--shadow-lg);
+  box-shadow: 0 0 0 3px rgba(176,87,94,0.15), var(--shadow-lg);
 }
 .plan-badge {
   position: absolute; top: -13px; left: 50%; transform: translateX(-50%);
@@ -934,7 +934,7 @@ section { padding: 96px 5vw; }
   border-radius: 50px;
   transition: all 0.18s; letter-spacing: 0.03em;
 }
-.gform-btn:hover { background: var(--accent-dk); transform: translateY(-1px); box-shadow: 0 4px 14px rgba(176,141,87,0.28); }
+.gform-btn:hover { background: var(--accent-dk); transform: translateY(-1px); box-shadow: 0 4px 14px rgba(176,87,94,0.28); }
 .contact-form-embed {
   background: var(--white);
   border-radius: var(--radius);
@@ -943,7 +943,7 @@ section { padding: 96px 5vw; }
   border: 1px solid var(--border);
 }
 .corp-banner {
-  background: linear-gradient(135deg, var(--navy) 0%, #2D2820 60%, #3A2E1E 100%);
+  background: linear-gradient(135deg, var(--navy) 0%, #2D1D1E 60%, #3A1F21 100%);
   padding: 1.5rem 1.8rem;
   position: relative; overflow: hidden;
   border-bottom: 2px solid var(--accent);
